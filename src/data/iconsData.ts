@@ -9,18 +9,18 @@ const baseIconOptions = {
 export const icons = {
   restaurant: new L.Icon({
     ...baseIconOptions,
-    iconUrl: "/src/assets/restaurant.png",
+    iconUrl: "../../public/restaurant.png",
   }),
   park: new L.Icon({
     ...baseIconOptions,
-    iconUrl: "/src/assets/park.png",
+    iconUrl: "../../public/park.png",
   }),
   school: new L.Icon({
     ...baseIconOptions,
-    iconUrl: "/src/assets/school.png",
+    iconUrl: "../../public/school.png",
   }),
   canteen: new L.Icon({
     ...baseIconOptions,
-    iconUrl: "/src/assets/school.png",
+    iconUrl: "../../public/school.png",
   }),
 };

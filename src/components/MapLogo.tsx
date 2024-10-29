@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import PWU from "../assets/pwu.png";
+import PWU from "../../public/pwu.png";
 
 interface Props {
   className: string;

@@ -73,7 +73,7 @@ const Maps = () => {
         maxBoundsViscosity={0.5}
         className="map__container"
       >
-        <ImageOverlay url={`/src/assets/${floorImage}`} bounds={bounds} />
+        <ImageOverlay url={`/public/${floorImage}`} bounds={bounds} />
         {markers.map((marker, index) => (
           <Marker
             key={index}
