@@ -48,15 +48,7 @@ const Details = ({
           />
           <RxCross1
             className="icon icon--close details__close flex justify--center align--center"
-            size={30}
             color={"#000"}
-            style={{
-              backgroundColor: "#fff",
-              borderRadius: "50%",
-              padding: "12px",
-              width: "50px",
-              height: "50px",
-            }}
             onClick={onDetailsActive}
           />
           <div className="details__description">

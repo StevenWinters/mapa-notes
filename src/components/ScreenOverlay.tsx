@@ -12,7 +12,6 @@ const ScreenOverlay = ({ src, isZoomActive, onZoomActive }: Props) => {
       <img className="img overlay__img" src={`/${src}`} alt="" />
       <RxCross1
         className="icon icon--close overlay__close flex justify--center align--center"
-        size={30}
         color={"#fff"}
         onClick={onZoomActive}
       />
