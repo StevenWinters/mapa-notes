@@ -777,8 +777,8 @@ body {
     padding: 0.5rem;
   }
 
-  .overlay__img {
-    top: 50%;
-    transform: translateY(-50%);
+  .overlay.active {
+    display: flex;
+    align-items: center;
   }
 }
