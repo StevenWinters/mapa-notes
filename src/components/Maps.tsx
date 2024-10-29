@@ -66,9 +66,9 @@ const Maps = () => {
       />
       <MapContainer
         center={[40.743, -74.176]}
-        zoom={13}
+        zoom={11}
         maxZoom={14}
-        minZoom={11.4}
+        minZoom={11}
         maxBounds={bounds}
         maxBoundsViscosity={0.5}
         className="map__container"
