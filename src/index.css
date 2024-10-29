@@ -106,13 +106,13 @@ li {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .img--logo {
-    bottom: 20vh;
+    bottom: clamp(20vh, 25vh);
   }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
   .img--logo {
-    bottom: 10vh;
+    bottom: clamp(10vh, 20vh, 25vh);
   }
 }
 
