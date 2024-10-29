@@ -106,7 +106,6 @@ const SearchBar = ({
         />
         {!query && !isSearchActive ? (
           <IoSearchOutline
-            size={35}
             color={"var(--color-primary)"}
             className="icon--search"
             onClick={handleSearch}
