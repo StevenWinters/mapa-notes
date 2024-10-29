@@ -139,7 +139,7 @@ li {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .zoom {
-    bottom: 32vh;
+    bottom: 37vh;
     right: 15px;
   }
 }
