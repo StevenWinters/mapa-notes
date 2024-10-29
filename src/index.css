@@ -97,7 +97,7 @@ li {
 .img--logo {
   max-width: 40px;
   position: absolute;
-  bottom: 1%;
+  bottom: 1vh;
   left: 20px;
   z-index: 1003;
   box-shadow: 0 0 15px var(--color-shadow);
@@ -106,13 +106,13 @@ li {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .img--logo {
-    bottom: 15%;
+    bottom: 20vh;
   }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
   .img--logo {
-    bottom: 10%;
+    bottom: 10vh;
   }
 }
 
@@ -121,7 +121,7 @@ li {
 .zoom {
   position: absolute;
   right: 20px;
-  bottom: 25%;
+  bottom: 25vh;
   border-radius: 7px;
   overflow: hidden;
   box-shadow: 0 0 5px var(--color-shadow);
@@ -139,14 +139,14 @@ li {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .zoom {
-    bottom: 23%;
+    bottom: 27vh;
     right: 15px;
   }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
   .zoom {
-    bottom: 18%;
+    bottom: 18vh;
     right: 15px;
   }
 }
@@ -463,7 +463,7 @@ body {
 @media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
-    padding: 15vh 0;
+    padding: 20vh 0;
   }
 
   .sidebar__logo {
@@ -534,7 +534,7 @@ body {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .link__floors {
-    bottom: 15vh;
+    bottom: 20vh;
   }
 }
 
@@ -740,6 +740,8 @@ body {
     width: 40px;
     height: 40px;
     padding: 1rem;
+    top: 10px;
+    right: 10px;
   }
 }
 
@@ -773,7 +775,7 @@ body {
 
 .overlay__close {
   top: 40px;
-  right: 50px;
+  right: 40px;
   background-color: var(--color-dark);
   box-shadow: 0 0 4px #aaa;
 }
@@ -788,6 +790,8 @@ body {
     width: 40px;
     height: 40px;
     padding: 1rem;
+    top: 20px;
+    right: 20px;
   }
 }
 
@@ -807,3 +811,12 @@ body {
     padding: 0.5rem;
   }
 }
+
+/*
+
+FIX: BUTTONS COVERED BY NAV BUTTONS
+FIX: CLOSE BUTTON TOO FAR AWAY FROM CORNER
+FIX: SIDEBAR PADDING (COPYRIGHT COVERED)
+FIX: DETAILS PADDING (LANDSCAPE)
+
+*/
