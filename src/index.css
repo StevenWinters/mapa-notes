@@ -493,7 +493,7 @@ body {
 
 .link__floors {
   position: absolute;
-  bottom: 1%;
+  bottom: 1vh;
   right: 15px;
   z-index: 1002;
   box-shadow: 0 0 5px var(--color-shadow);
@@ -521,7 +521,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .link__floors {
-    bottom: 10%;
+    bottom: 10vh;
   }
 }
 
