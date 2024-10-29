@@ -106,13 +106,13 @@ li {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .img--logo {
-    bottom: clamp(20vh, 25vh);
+    bottom: 25vh;
   }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
   .img--logo {
-    bottom: clamp(10vh, 20vh, 25vh);
+    bottom: 10vh
   }
 }
 
@@ -463,7 +463,7 @@ body {
 @media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
-    padding: 20vh 0;
+    padding: 25vh 0;
   }
 
   .sidebar__logo {
@@ -534,7 +534,7 @@ body {
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .link__floors {
-    bottom: 20vh;
+    bottom: 25vh;
   }
 }
 
