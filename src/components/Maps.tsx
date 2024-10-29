@@ -1,18 +1,18 @@
 import { LatLngBounds } from "leaflet";
+import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
 import { ImageOverlay, MapContainer, Marker, Popup } from "react-leaflet";
 import { floorImagesData, floorsData } from "../data/floorsData";
 import { icons } from "../data/iconsData";
-import FloorLinks from "./FloorLinks";
-import SearchBar from "./SearchBar";
-import ZoomButtons from "./ZoomButtons";
-import MapLogo from "./PWULogo";
-import Details from "./Details";
-import ScreenOverlay from "./ScreenOverlay";
-import "leaflet/dist/leaflet.css";
 import { MarkerData } from "../data/MarkerData";
+import Details from "./Details";
+import FloorLinks from "./FloorLinks";
 import HamburgerMenu from "./HamburgerMenu";
+import PWULogo from "./PWULogo";
+import ScreenOverlay from "./ScreenOverlay";
+import SearchBar from "./SearchBar";
 import SideBar from "./SideBar";
+import ZoomButtons from "./ZoomButtons";
 
 const Maps = () => {
   const [currentFloor, setCurrentFloor] =
@@ -73,7 +73,7 @@ const Maps = () => {
         maxBoundsViscosity={0.5}
         className="map__container"
       >
-        <ImageOverlay url={`/public/${floorImage}`} bounds={bounds} />
+        <ImageOverlay url={`/${floorImage}`} bounds={bounds} />
         {markers.map((marker, index) => (
           <Marker
             key={index}
@@ -96,7 +96,7 @@ const Maps = () => {
           onSearchActive={(status) => setSearchActive(status)}
           onSideBarActive={() => setSideBarActive(false)}
         />
-        <MapLogo className="img--logo" />
+        <PWULogo className="img--logo" />
       </MapContainer>
       <Details
         isDetailsActive={isDetailsActive}

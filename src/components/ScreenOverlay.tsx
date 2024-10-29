@@ -9,7 +9,7 @@ interface Props {
 const ScreenOverlay = ({ src, isZoomActive, onZoomActive }: Props) => {
   return (
     <div className={`overlay ${isZoomActive && "active"}`}>
-      <img className="img overlay__img" src={`../../public/${src}`} alt="" />
+      <img className="img overlay__img" src={`/${src}`} alt="" />
       <RxCross1
         className="icon icon--close overlay__close flex justify--center align--center"
         size={30}

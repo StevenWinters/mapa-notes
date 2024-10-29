@@ -42,7 +42,7 @@ const Details = ({
         <>
           <img
             className="img details__image"
-            src={`../../public/${details.src}`}
+            src={`/${details.src}`}
             alt=""
             onClick={() => handleImage(details.src)}
           />

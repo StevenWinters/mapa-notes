@@ -1,4 +1,4 @@
-import MapaNotes from "../../public/mapa-notes.png";
+import MapaNotes from "/mapa-notes.png";
 import { directoryData } from "../data/directoryData";
 
 interface Props {
