@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mapa-notes.vercel.app/sitemap.xml
